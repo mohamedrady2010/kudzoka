@@ -1,0 +1,278 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+}
+.image1 {
+  width: 100%;
+  height: 600px;
+}
+header {
+  position: relative;
+}
+nav {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 3;
+  top: -585px;
+  margin-left: 50px;
+}
+.active {
+  border-bottom: 3px solid #4b0082;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: blue;
+}
+ul li a:hover {
+  border-bottom: 3px solid #4b0082;
+}
+.log {
+  position: absolute;
+  top: -562px;
+  right: 70px;
+  z-index: 3;
+}
+.log:hover {
+  border-bottom: 3px solid #4b0082;
+  cursor: pointer;
+}
+.lo {
+  position: absolute;
+  top: -574px;
+  right: 21px;
+}
+.para {
+  position: absolute;
+  top: -380px;
+  left: 90px;
+  font-family: sans-serif;
+  word-spacing: 5px;
+}
+.para h2 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.para p {
+  font-size: 20px;
+  font-weight: bold;
+}
+span {
+  color: #4b0082;
+}
+.landing {
+  position: absolute;
+  top: -580px;
+  right: 0;
+  width: 500px;
+}
+.mask {
+  position: absolute;
+  right: 182px;
+  top: -545px;
+  width: 200px;
+}
+.clouds {
+  position: absolute;
+  top: -330px;
+  right: 145px;
+  width: 300px;
+}
+.waves {
+  position: absolute;
+  top: -170px;
+  width: 1200px;
+  left: 0px;
+}
+section {
+  margin-top: 50px;
+}
+.left {
+  margin-left: 50px;
+}
+.left img {
+  width: 300px;
+}
+.left h3 {
+  position: absolute;
+  left: 82px;
+  font-size: 25px;
+  word-spacing: 5px;
+}
+.left p {
+  position: absolute;
+  bottom: -327px;
+  font-size: 20px;
+}
+.middel img {
+  position: absolute;
+  bottom: -430px;
+  right: 550px;
+}
+.middel h3 {
+  position: absolute;
+  right: 550px;
+  bottom: -460px;
+  font-size: 25px;
+  word-spacing: 5px;
+}
+.middel p {
+  position: absolute;
+  right: 460px;
+  bottom: -510px;
+  font-size: 20px;
+}
+.right img {
+  position: absolute;
+  top: 1200px;
+  right: 80px;
+}
+.right h3 {
+  position: absolute;
+  bottom: -768px;
+  right: 180px;
+  font-size: 25px;
+  word-spacing: 5px;
+}
+.right p {
+  font-size: 20px;
+  position: absolute;
+  bottom: -817px;
+  right: 35px;
+}
+.con-comp {
+  position: absolute;
+  top: 1200px;
+  margin-left: 50px;
+}
+.con-comp p {
+  position: absolute;
+  bottom: 161px;
+  color: white;
+  font-size: 20px;
+  left: 75px;
+}
+.con-comp h3 {
+  position: absolute;
+  bottom: 125px;
+  left: 116px;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.road {
+  position: absolute;
+  top: 690px;
+  width: 90%;
+  margin-left: 80px;
+}
+.con-comp2 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 650px;
+  margin-left: 100px;
+}
+.para2 h3 {
+  position: absolute;
+  bottom: -1240px;
+  left: 530px;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.para2 p {
+  position: absolute;
+  bottom: -1315px;
+  left: 545px;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+footer {
+  overflow: hidden;
+  margin-top: 200px;
+  width: 100%;
+}
+.image2 {
+  position: relative;
+  top: 350px;
+}
+.one {
+  position: absolute;
+  bottom: -1570px;
+  width: 400px;
+  right: 50px;
+}
+.back {
+  left: 120px;
+  position: absolute;
+  bottom: -1540px;
+}
+.front {
+  left: 275px;
+  bottom: -1540px;
+  position: absolute;
+}
+.apple {
+  position: absolute;
+  bottom: -1536px;
+  left: 130px;
+  z-index: 1;
+}
+.play {
+  position: absolute;
+  bottom: -1536px;
+  left: 290px;
+  z-index: 1;
+}
+.apara {
+  position: absolute;
+  left: 167px;
+  bottom: -1530px;
+  font-size: 20px;
+}
+.ppara {
+  position: absolute;
+  left: 320px;
+  bottom: -1530px;
+  font-size: 20px;
+}
+.insta {
+  position: absolute;
+  z-index: 1;
+  bottom: -1588px;
+  left: 290px;
+}
+.face {
+  position: absolute;
+  z-index: 1;
+  bottom: -1588px;
+  left: 240px;
+}
+.what {
+  position: absolute;
+  z-index: 1;
+  bottom: -1588px;
+  left: 185px;
+}
+footer ul li {
+  display: inline;
+  margin-left: 20px;
+}
+.foot {
+  width: 30%;
+  position: absolute;
+  bottom: -1630px;
+  left: 150px;
+}
